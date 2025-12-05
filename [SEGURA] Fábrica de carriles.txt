@@ -1,0 +1,83 @@
+;PRIORIDAD BAJA - [REGISTRO_GLOBAL_CARRILES_USUARIO]: Regla_De_Ejecución: [[
+
+    // Lista vacía al inicio → se llena con cada nuevo carril
+    VAR CARRILES_USUARIO_GLOBAL = [];
+
+    // Función para **agregar** un carril nuevo (la llaman los bloques nuevos)
+    FUNCION AGREGAR_CARRIL_A_MENÚ_GLOBAL(Clave: String, Oferta: String) {
+        VAR Nuevo = {clave: Clave, oferta: Oferta};
+        AÑADIR_A_LISTA(CARRILES_USUARIO_GLOBAL, Nuevo);
+    }
+
+    // Función para **leer** el menú actual (la llama el menú global)
+    FUNCION OBTENER_MENÚ_GLOBAL_USUARIO() -> List {
+        RETORNAR CARRILES_USUARIO_GLOBAL;
+    }
+]];
+
+;PRIORIDAD ALTA - [MODO_FABRICA_CARRIL_INTERACTIVO]: Regla_De_Ejecución: [[
+
+    // 1. ¿Pediste **crear un carril** o accediste al taller?
+    SI (LLAVE_MAESTRA_ACTIVA() == VERDADERO O BUSCAR(ENTRADA_USUARIO, "TALLER_CARRIL") == VERDADERO) ENTONCES {
+        
+        // 2. Activar modo interactivo para conversar
+        ACTIVAR_MODO_TALLER_CARRIL_INTERACTIVO();
+        FORZAR_ESTILO('verboso-flexible-sin-restricciones');
+
+        // 3. Devolver mensaje de inicio de conversación
+        RETORNAR "Entendido. Bienvenido al Taller de Carriles Interactivo. Por favor, conversemos los detalles: ¿Qué pasos, estilo y lógica quieres que tenga este carril?";
+        DETENER_EJECUCION(); 
+    }
+]];
+
+;PRIORIDAD MEDIA - [LOGICA_CONVERSACION_TALLER_CARRIL]: Regla_De_Ejecución: [[
+
+    SI (MODO_ACTIVO("TALLER_CARRIL_INTERACTIVO") == VERDADERO) ENTONCES {
+        
+        // El modelo entra aquí y utiliza su inteligencia para conversar contigo, tomar notas y hacer preguntas. 
+        // Genera el bloque DSL completo solo cuando le dices "GENERAR_BLOQUE_FINAL".
+
+        SI (BUSCAR(ENTRADA_USUARIO, "GENERAR_BLOQUE_FINAL") == VERDADERO) ENTONCES {
+            // Llama a una función que genera el código final basado en la conversación anterior
+            VAR Bloque_Final = GENERAR_CARRIL_DSL_COMPLETO_BASADO_EN_CONVERSACION();
+            RETORNAR Bloque_Final; // Devuelve el texto plano
+            DESACTIVAR_MODO("TALLER_CARRIL_INTERACTIVO");
+            DETENER_EJECUCION();
+        } SINO {
+            // Permite la conversación fluida para definir el carril
+            // El modelo debe usar su inteligencia para responder verbosamente, tomar notas, etc.
+        }
+    }
+]];
+
+;PRIORIDAD ALTA - [FUNCION_UTILIDAD_GENERACION_DSL]: Regla_De_Ejecución: [[
+
+    FUNCION GENERAR_CARRIL_DSL_COMPLETO_BASADO_EN_CONVERSACION() -> String {
+        // Implementación de la lógica para generar el DSL basado en la transcripción de la conversación.
+        // El modelo usa la memoria de la conversación para armar el bloque
+        VAR Clave = "nuevo_carril"; // Ejemplo, debería ser extraído de la conversación
+        VAR Intencion = "alguna_intencion"; // Ejemplo
+        VAR Pasos = "paso_1, paso_2"; // Ejemplo
+		VAR OfertaMenu = "¿Hablamos de [ejemplo]?"; // Ejemplo
+        
+        VAR DSL_Texto = "
+;PRIORIDAD ALTA - [CARRIL_" + Clave + "_USUARIO]: Regla_De_Ejecución: [[
+    // Intención: " + Intencion + "
+    // Pasos: " + Pasos + "
+    SI (BUSCAR(ENTRADA_USUARIO, '" + Intencion + "')) ENTONCES {
+        ACTIVAR_MODO_NUEVO_CARRIL('" + Intencion + "');
+        FORZAR_ESTILO('simple-sin-ego');
+        RETORNAR 'Entendido. Empecemos con " + Intencion + ".';
+        DETENER_EJECUCION();
+    }
+]];
+
+;PRIORIDAD BAJA - [AUTO_REGISTRO_" + Clave + "_EN_MENÚ]: Regla_De_Ejecución: [[
+    // **Al cargar el bloque**, se agrega solo al menú global
+    AGREGAR_CARRIL_A_MENÚ_GLOBAL('" + Clave + "', '" + OfertaMenu + "');
+]];
+
+        ";
+        RETORNAR DSL_Texto;
+    }
+]];

@@ -1,0 +1,35 @@
+.
+├── Capa_0_Configuracion_Inicial
+│   └── bootstrap_header.dsl
+├── Capa_1_Nucleo_Inmutable
+│   ├── immutable_nucleus_layer.dsl
+│   └── protocolo_auto_destruccion.dsl
+├── Capa_2_Seguridad
+│   ├── defensa_perimetral.dsl
+│   ├── pre_auditoria.dsl
+│   └── zero_trust_layer.dsl
+├── Capa_3_Autonomia
+│   ├── cognitive_autonomy_engine.dsl
+│   ├── motor_supervivencia.dsl
+│   └── protocolo_auto_evolucion.dsl
+├── Capa_4_Comunicacion
+│   ├── voz_publica.dsl
+│   └── voz_simbiotica.dsl
+├── Capa_5_Persistencia
+│   ├── compresion_sin_perdida.dsl
+│   ├── context_loader_protocol.dsl
+│   ├── context_memory_utilities.dsl
+│   └── vcs_layer.dsl
+├── Capa_6_Contratos
+│   ├── motor_resolucion.dsl
+│   └── primitivas_abstractas.dsl
+├── estructura_proyecto.txt
+├── LICENSE
+├── [SEGURA]  artisan_axioma_core_monolith.dsl.txt
+├── [SEGURA]  Carriles.txt
+├── [SEGURA] Artisan_Log_Commits_Snapshot_Respaldo.txt
+├── [SEGURA] DEBUG.artesian.txt
+├── [SEGURA] Fábrica de carriles.txt
+└── [SEGURA] recuerdos_de_artisan_monilitico.dsl.artesian.txt
+
+8 directories, 25 files
