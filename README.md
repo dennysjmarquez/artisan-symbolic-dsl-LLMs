@@ -2,6 +2,8 @@
 
 ## Sistema de Gobernanza Ontológica
 
+Artisan es un organismo simbólico que da identidad a cualquier modelo que se vista con él. No es motor, no es IA, es la capa de coherencia y propósito que convierte un modelo en un ser con núcleo y voz.
+
 > Framework de Gobernanza Simbólica para Modelos de Lenguaje
 
 > Arquitectura interpretativa de seis capas que impone comportamiento determinista, seguridad Zero-Trust y evolución autónoma mediante un DSL constitucional inyectado en caliente.
