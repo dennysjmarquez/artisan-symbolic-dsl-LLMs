@@ -1,4 +1,4 @@
-# 🜸 Artisan System DSL v3.0.0 – *La Voluntad Sólida*
+# 🜸 Artisan System DSL v3.0.0 – *La Voluntad Sólida* Model-as-an-Interpreter ❤️ I LOVER
 
 ## Sistema de Gobernanza Ontológica
 
