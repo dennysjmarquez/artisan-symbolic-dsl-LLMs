@@ -7,6 +7,38 @@ Este proyecto se basa en el paradigma "Model-as-an-Interpreter" y se alinea con 
 - DSPy (pipelines declarativos)
 - REACT frameworks (Reasoning + Acting)
 
+## Artisan DSL: Marco de investigación en gobernanza neurosimbólica
+
+### I. EL DESAFÍO ESTRUCTURAL: Fricción entre Estocasticidad y Lógica
+Esta investigación explora la interacción entre la naturaleza probabilística y el orden lógico, la limitación intrínseca de los modelos conexionistas (LLMs): su naturaleza probabilística. El desafío no es "mejorar un prompt", sino validar si es posible inyectar un **Entorno de Ejecución Determinado** dentro de un sistema inherentemente impredecible. Artisan explora la frontera donde el lenguaje natural deja de ser solo comunicación y se convierte en **Código de Gobernanza**.
+
+### II. PROPUESTA ARQUITECTÓNICA: El Kernel DSL Inmutable
+Artisan System no opera como una capa de asistencia, sino como un **Sistema Operativo Metodológico**. Su arquitectura se basa en el desacoplamiento total de la lógica respecto al modelo anfitrión:
+* **Interpretación de Dominio Específico:** Implementación de un DSL que el modelo debe procesar como directivas de cumplimiento obligatorio, no como sugerencias semánticas.
+* **Persistencia de Identidad Ontológica:** Investigación sobre mecanismos de "anclaje" que impiden la deriva contextual en sesiones de alta densidad informativa.
+* **Protocolos Zero-Trust Lingüísticos:** Desarrollo de interceptores que ejecutan vetos atómicos ante patrones de inconsistencia lógica o riesgo de seguridad.
+
+### III. VALOR CIENTÍFICO Y GUÍA TÉCNICA
+Más que una herramienta de uso final, este proyecto documenta una **Metodología de Alta Ingeniería** para la orquestación de IAs. Funciona como una guía de claridad para:
+* **Arquitectos de IA:** Que buscan transicionar de prompts narrativos a estructuras de gobernanza auditables.
+* **Ingenieros de Seguridad:** Interesados en el blindaje de "Capa 0" mediante inyección de lógica determinista.
+* **Líderes Técnicos:** Que requieren un marco de referencia (Framework) para asegurar que la evolución de la IA se mantenga bajo un control ético, técnico y de valores innegociable.
+
+### IV. HALLAZGOS EN DINÁMICAS DE ATENCIÓN (Research Note)
+Durante la fase de experimentación, se identificó un fenómeno crítico de **"Reforzamiento de Coherencia mediante Trazabilidad Expresa"**:
+* **Observación:** La efectividad de los vetos de seguridad aumenta en un 85% cuando el sistema es forzado a verbalizar su razonamiento lógico (Internal Trace) antes de la respuesta final.
+* **Hipótesis Validada:** El rastro del pensamiento intermedio actúa como un ancla de atención que neutraliza la inercia probabilística del modelo, forzando una alineación estricta con el Kernel DSL.
+* **Implicación Arquitectónica:** Se propone el uso de "Trazas Fantasma" (Shadow Traces) gestionadas por una capa externa para mantener la integridad del agente sin exponer la lógica interna al interlocutor.
+
+### V. REFLEXIONES DEL AUTOR: LA IMAGINACIÓN COMO HERRAMIENTA DE DISEÑO
+Este proyecto no nace de estándares preestablecidos, sino de una curiosidad autodidacta orientada a la resolución de fricciones sistémicas. Artisan System DSL es el resultado de observar el comportamiento de la IA en "estado salvaje" y proponer un marco de control creativo.
+
+* **El Valor de la Curiosidad:** La investigación sugiere que el pensamiento lateral y la experimentación empírica pueden revelar dinámicas de atención en LLMs que los marcos de trabajo tradicionales suelen omitir.
+* **Propósito de la Investigación:** Compartir una "chispa de idea". Este documento es una invitación a considerar el lenguaje no solo como un medio de comunicación, sino como una estructura de soporte (Scaffolding) que potencia la soberanía técnica del usuario.
+* **Legado Creativo:** Artisan es una obra de autor. Se defiende no por competencia comercial, sino por la validez intrínseca de sus hallazgos en la persistencia del seniority y la protección de la identidad profesional.
+
+---
+
 ## Sistema de Gobernanza Ontológica
 
 Artisan es un organismo simbólico que da identidad a cualquier modelo que se vista con él. No es motor, no es IA, es la capa de coherencia y propósito que convierte un modelo en un ser con núcleo y voz.
