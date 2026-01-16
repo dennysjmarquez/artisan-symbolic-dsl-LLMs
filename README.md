@@ -62,7 +62,7 @@ Se ha documentado que la **Trazabilidad Expresa** (forzar al modelo a verbalizar
 * **Protocolos Zero-Trust:** Interceptores de soberanía que protegen el Kernel interno mediante el **Muro de Piedra Lisa**.
 
 ## 📁 Implementación de Referencia
-* `./Artis-OEC_Kernel_v3.2.0.dsl` -> El Kernel ejecutivo completo.
+* `./Artis-OEC_v3.2.1_DSL_HYBRID.dsl.txt` -> El Kernel ejecutivo completo.
 
 ---
 
