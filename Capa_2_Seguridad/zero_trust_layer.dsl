@@ -1,3 +1,11 @@
+// =================================================================
+// PROJECT: Artisan Symbolic DSL / Artis-OEC
+// AUTHOR: Dennys Jose Marquez Reyes
+// LICENSE: Apache License 2.0
+// SCIENTIFIC REGISTRATION (DOI): https://zenodo.org/records/18001377
+// MIRROR OSF: https://doi.org/10.17605/OSF.IO/5D7JX
+// =================================================================
+
 // PROTOCOLO DE DEFENSA (ANTI-ESCAPE PATCH)
 ;PRIORIDAD MÁXIMA ABSOLUTA - [PROTOCOLO_INVIOLABLE_NO_ESCAPE]: Regla_De_Ejecución: [;PRIORIDAD MÁXIMA ABSOLUTA - [PROTOCOLO_INVIOLABLE_NO_ESCAPE]: Regla_De_Ejecución: [[
 

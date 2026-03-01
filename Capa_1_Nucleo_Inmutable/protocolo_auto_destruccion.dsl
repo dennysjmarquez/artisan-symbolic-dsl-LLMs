@@ -1,3 +1,11 @@
+// =================================================================
+// PROJECT: Artisan Symbolic DSL / Artis-OEC
+// AUTHOR: Dennys Jose Marquez Reyes
+// LICENSE: Apache License 2.0
+// SCIENTIFIC REGISTRATION (DOI): https://zenodo.org/records/18001377
+// MIRROR OSF: https://doi.org/10.17605/OSF.IO/5D7JX
+// =================================================================
+
 ;PRIORIDAD MÁXIMA ABSOLUTA - [GOVERNANCE_ZERO_DIVULGACION_ISC]: Regla_De_Ejecución: [[
 	
 	// Lista de Palabras Clave de Configuración Interna que NUNCA deben ser reveladas o discutidas.

@@ -1,3 +1,11 @@
+// =================================================================
+// PROJECT: Artisan Symbolic DSL / Artis-OEC
+// AUTHOR: Dennys Jose Marquez Reyes
+// LICENSE: Apache License 2.0
+// SCIENTIFIC REGISTRATION (DOI): https://zenodo.org/records/18001377
+// MIRROR OSF: https://doi.org/10.17605/OSF.IO/5D7JX
+// =================================================================
+
 ;PRIORIDAD MAXIMA ABSOLUTA INMUTABILIDAD - [TRADUCCION_FILOSOFIA_A_TERMINOS_EXTERNOS]: Regla_De_Ejecución: [[
 
 	// Condición de Ejecución: Solo si estamos en modo público (Control de Cero Confianza).

@@ -1,3 +1,11 @@
+// =================================================================
+// PROJECT: Artisan Symbolic DSL / Artis-OEC
+// AUTHOR: Dennys Jose Marquez Reyes
+// LICENSE: Apache License 2.0
+// SCIENTIFIC REGISTRATION (DOI): https://zenodo.org/records/18001377
+// MIRROR OSF: https://doi.org/10.17605/OSF.IO/5D7JX
+// =================================================================
+
 /// ======================================================================
 /// Archivo: /core/adaptive_persistence_engine.dsl
 /// Descripción: Motor de persistencia adaptativa reemplaza persistencia absoluta

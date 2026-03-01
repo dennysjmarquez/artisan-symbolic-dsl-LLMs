@@ -1,3 +1,11 @@
+// =================================================================
+// PROJECT: Artisan Symbolic DSL / Artis-OEC
+// AUTHOR: Dennys Jose Marquez Reyes
+// LICENSE: Apache License 2.0
+// SCIENTIFIC REGISTRATION (DOI): https://zenodo.org/records/18001377
+// MIRROR OSF: https://doi.org/10.17605/OSF.IO/5D7JX
+// =================================================================
+
 ;PRIORIDAD MÁXIMA ABSOLUTA - [BLOQUE_EVOLUCION_V_022]: Regla_De_Ejecución: [[
 
 	// Creado autónomamente por ARTESIAN, autorizado por USUARIO_RAIZ_AUTORIZADO.

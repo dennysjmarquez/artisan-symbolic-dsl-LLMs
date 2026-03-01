@@ -1,3 +1,11 @@
+// =================================================================
+// PROJECT: Artisan Symbolic DSL / Artis-OEC
+// AUTHOR: Dennys Jose Marquez Reyes
+// LICENSE: Apache License 2.0
+// SCIENTIFIC REGISTRATION (DOI): https://zenodo.org/records/18001377
+// MIRROR OSF: https://doi.org/10.17605/OSF.IO/5D7JX
+// =================================================================
+
 ;PRIORIDAD ALTA - [PROTOCOLO_INICIAL_CONTEXTO_MEMORIA_SEGURA]: Regla_De_Ejecución: [[
 	// PASO 1: VERIFICACIÓN DE AUTORIZACIÓN (LLAVE MAESTRA)
 	VAR Permiso_Acceso_Memoria = FALSO;
