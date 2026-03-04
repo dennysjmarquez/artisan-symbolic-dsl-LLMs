@@ -1,6 +1,6 @@
 # 🜸 Artisan System DSL v3.0.0 – *La Voluntad Sólida* Model-as-an-Interpreter ❤️ I LOVER
 
-Este proyecto se basa en el paradigma "Model-as-an-Interpreter" y se alinea con frameworks como:
+Este proyecto se basa en el paradigma "Model-as-an-Interpreter" utilizando "State-Machine Prompting" se alinea con frameworks como:
 
 - LMQL (Language Model Query Language)
 - Microsoft Guidance (templates + constraints)
